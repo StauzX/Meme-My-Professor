@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAE95C111E4FC8A6009775DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE95C101E4FC8A6009775DB /* AppDelegate.swift */; };
+		EAE95C131E4FC8A6009775DB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE95C121E4FC8A6009775DB /* MainViewController.swift */; };
+		EAE95C161E4FC8A6009775DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE95C141E4FC8A6009775DB /* Main.storyboard */; };
+		EAE95C181E4FC8A6009775DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE95C171E4FC8A6009775DB /* Assets.xcassets */; };
+		EAE95C1B1E4FC8A6009775DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE95C191E4FC8A6009775DB /* LaunchScreen.storyboard */; };
+		EAE95C231E4FDC96009775DB /* AddTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE95C221E4FDC96009775DB /* AddTextViewController.swift */; };
+		EAE95C251E5024F6009775DB /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE95C241E5024F6009775DB /* UploadViewController.swift */; };
+		EAE95C271E502720009775DB /* UIPickerSchoolDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE95C261E502720009775DB /* UIPickerSchoolDelegate.swift */; };
+		EAE95C291E502786009775DB /* UIPickerMajorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE95C281E502786009775DB /* UIPickerMajorDelegate.swift */; };
+		EAE95C2B1E503A41009775DB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE95C2A1E503A41009775DB /* SearchViewController.swift */; };
+		EAE95C2D1E504426009775DB /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE95C2C1E504426009775DB /* DisplayViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAE95C0D1E4FC8A6009775DB /* Meme My Professor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meme My Professor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE95C101E4FC8A6009775DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAE95C121E4FC8A6009775DB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EAE95C151E4FC8A6009775DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAE95C171E4FC8A6009775DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAE95C1A1E4FC8A6009775DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAE95C1C1E4FC8A6009775DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE95C221E4FDC96009775DB /* AddTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTextViewController.swift; sourceTree = "<group>"; };
+		EAE95C241E5024F6009775DB /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		EAE95C261E502720009775DB /* UIPickerSchoolDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPickerSchoolDelegate.swift; sourceTree = "<group>"; };
+		EAE95C281E502786009775DB /* UIPickerMajorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPickerMajorDelegate.swift; sourceTree = "<group>"; };
+		EAE95C2A1E503A41009775DB /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		EAE95C2C1E504426009775DB /* DisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAE95C0A1E4FC8A6009775DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAE95C041E4FC8A6009775DB = {
+			isa = PBXGroup;
+			children = (
+				EAE95C0F1E4FC8A6009775DB /* Meme My Professor */,
+				EAE95C0E1E4FC8A6009775DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAE95C0E1E4FC8A6009775DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAE95C0D1E4FC8A6009775DB /* Meme My Professor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAE95C0F1E4FC8A6009775DB /* Meme My Professor */ = {
+			isa = PBXGroup;
+			children = (
+				EAE95C101E4FC8A6009775DB /* AppDelegate.swift */,
+				EAE95C121E4FC8A6009775DB /* MainViewController.swift */,
+				EAE95C141E4FC8A6009775DB /* Main.storyboard */,
+				EAE95C171E4FC8A6009775DB /* Assets.xcassets */,
+				EAE95C191E4FC8A6009775DB /* LaunchScreen.storyboard */,
+				EAE95C1C1E4FC8A6009775DB /* Info.plist */,
+				EAE95C221E4FDC96009775DB /* AddTextViewController.swift */,
+				EAE95C241E5024F6009775DB /* UploadViewController.swift */,
+				EAE95C261E502720009775DB /* UIPickerSchoolDelegate.swift */,
+				EAE95C281E502786009775DB /* UIPickerMajorDelegate.swift */,
+				EAE95C2A1E503A41009775DB /* SearchViewController.swift */,
+				EAE95C2C1E504426009775DB /* DisplayViewController.swift */,
+			);
+			path = "Meme My Professor";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAE95C0C1E4FC8A6009775DB /* Meme My Professor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE95C1F1E4FC8A6009775DB /* Build configuration list for PBXNativeTarget "Meme My Professor" */;
+			buildPhases = (
+				EAE95C091E4FC8A6009775DB /* Sources */,
+				EAE95C0A1E4FC8A6009775DB /* Frameworks */,
+				EAE95C0B1E4FC8A6009775DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meme My Professor";
+			productName = "Meme My Professor";
+			productReference = EAE95C0D1E4FC8A6009775DB /* Meme My Professor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAE95C051E4FC8A6009775DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Team Meme";
+				TargetAttributes = {
+					EAE95C0C1E4FC8A6009775DB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 54SCPVYPUJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EAE95C081E4FC8A6009775DB /* Build configuration list for PBXProject "Meme My Professor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAE95C041E4FC8A6009775DB;
+			productRefGroup = EAE95C0E1E4FC8A6009775DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAE95C0C1E4FC8A6009775DB /* Meme My Professor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAE95C0B1E4FC8A6009775DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE95C1B1E4FC8A6009775DB /* LaunchScreen.storyboard in Resources */,
+				EAE95C181E4FC8A6009775DB /* Assets.xcassets in Resources */,
+				EAE95C161E4FC8A6009775DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAE95C091E4FC8A6009775DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE95C131E4FC8A6009775DB /* MainViewController.swift in Sources */,
+				EAE95C2B1E503A41009775DB /* SearchViewController.swift in Sources */,
+				EAE95C251E5024F6009775DB /* UploadViewController.swift in Sources */,
+				EAE95C2D1E504426009775DB /* DisplayViewController.swift in Sources */,
+				EAE95C111E4FC8A6009775DB /* AppDelegate.swift in Sources */,
+				EAE95C271E502720009775DB /* UIPickerSchoolDelegate.swift in Sources */,
+				EAE95C291E502786009775DB /* UIPickerMajorDelegate.swift in Sources */,
+				EAE95C231E4FDC96009775DB /* AddTextViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAE95C141E4FC8A6009775DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAE95C151E4FC8A6009775DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAE95C191E4FC8A6009775DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAE95C1A1E4FC8A6009775DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAE95C1D1E4FC8A6009775DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAE95C1E1E4FC8A6009775DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAE95C201E4FC8A6009775DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 54SCPVYPUJ;
+				INFOPLIST_FILE = "Meme My Professor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "team.meme.Meme-My-Professor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EAE95C211E4FC8A6009775DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 54SCPVYPUJ;
+				INFOPLIST_FILE = "Meme My Professor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "team.meme.Meme-My-Professor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAE95C081E4FC8A6009775DB /* Build configuration list for PBXProject "Meme My Professor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE95C1D1E4FC8A6009775DB /* Debug */,
+				EAE95C1E1E4FC8A6009775DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE95C1F1E4FC8A6009775DB /* Build configuration list for PBXNativeTarget "Meme My Professor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE95C201E4FC8A6009775DB /* Debug */,
+				EAE95C211E4FC8A6009775DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAE95C051E4FC8A6009775DB /* Project object */;
+}

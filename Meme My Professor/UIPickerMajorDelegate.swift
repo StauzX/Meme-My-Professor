@@ -10,7 +10,7 @@ import UIKit
 
 class UIPickerMajorDelegate : UIPickerView, UIPickerViewDataSource, UIPickerViewDelegate{
     
-    let majors = ["Computer Science", "Architecture", "General", "Art & Science", "History", "Electrical Engineering", "Mechanical Engineering"]
+    let majors = ["Computer Science", "Architecture", "General", "Art & Science", "History", "Electrical Engineering", "Mechanical Engineering", "Biomedical Engineering", "Business Administration", "Civil Engineering", "Physics", "Chemistry", "Biology"]
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1

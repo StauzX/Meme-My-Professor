@@ -27,11 +27,11 @@ class UploadViewController: UIViewController{
         
         schoolPicker.dataSource = schoolsDelegate
         schoolPicker.delegate = schoolsDelegate
-        schoolPicker.selectRow(4, inComponent: 0, animated: false)
+        schoolPicker.selectRow(8, inComponent: 0, animated: false)
         
         majorPicker.dataSource = majorsDelegate
         majorPicker.delegate = majorsDelegate
-        majorPicker.selectRow(4, inComponent: 0, animated: false)
+        majorPicker.selectRow(8, inComponent: 0, animated: false)
     }
     
     override func didReceiveMemoryWarning() {

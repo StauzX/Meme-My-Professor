@@ -7,14 +7,25 @@
 //
 
 import UIKit
+import QuickLook
 
-class SearchViewController: UIViewController{
+class SearchViewController: UIViewController, QLPreviewControllerDataSource{
     
     @IBOutlet weak var majorPicker: UIPickerView!
     @IBOutlet weak var schoolPicker: UIPickerView!
     
     var schoolsDelegate: UIPickerSchoolDelegate!
     var majorsDelegate: UIPickerMajorDelegate!
+    
+    var fileURLs = [NSURL]()
+    
+    func numberOfPreviewItems(in controller: QLPreviewController) -> Int {
+        return fileURLs.count
+    }
+    
+    func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
+        return fileURLs[index]
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,17 +55,20 @@ class SearchViewController: UIViewController{
         let flattened_data = school + "_" + major
         let defaults = UserDefaults.standard
         
-        let displayViewController = self.storyboard?.instantiateViewController(withIdentifier: "DisplayViewController") as! DisplayViewController
+        let quickLookController = QLPreviewController()
+        fileURLs.removeAll()
         
         if var memes = defaults.array(forKey: flattened_data){
             for i in 0 ..< memes.count  {
                 let data = memes[i]
                 let img_name = String(describing: data) + ".png"
                 let filename = getDocumentsDirectory().appendingPathComponent(img_name)
-                displayViewController.images.append(UIImage(contentsOfFile: filename.path)!)
+                
+                fileURLs.append(filename as NSURL)
             }
             
-            self.navigationController!.pushViewController(displayViewController, animated:true)
+            quickLookController.dataSource = self
+            self.navigationController!.pushViewController(quickLookController, animated: true)
         }else{
             let alertController = UIAlertController(title: "Error!", message:
                 "There are no memes that match your search criteria", preferredStyle: .alert)

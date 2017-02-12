@@ -10,7 +10,7 @@ import UIKit
 
 class UIPickerSchoolDelegate : UIPickerView, UIPickerViewDataSource, UIPickerViewDelegate{
     
-    let schools = ["University of Southern California", "UCLA", "University of Washington", "Standford University", "California Polytechnic State University", "UCSD", "Harvard University", "Princeton University"]
+    let schools = ["University of Southern California", "UCLA", "University of Washington", "Standford University", "California Polytechnic State University", "UCSD", "Harvard University", "Princeton University", "UC Davis", "UC Berkeley", "Cambridge University"]
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
